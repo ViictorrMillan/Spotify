@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Spotify - Victor Millan</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/vars.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/main.css">
 
       <!-- Links para trazer os ícones via CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -18,7 +20,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href=""> 
-                    <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
                 <ul>
@@ -41,7 +43,7 @@
             <div class="library__content">
                 <button class="library__button">
                     <span class="fa fa-book"></span> <!-- Corrigido aqui -->
-                    <span> Sua Biblioteca</span>
+                    <span> Sua biblioteca</span>
                 </button>
                 <span class="fa fa-plus"></span> <!-- Corrigido aqui -->
             </div>
@@ -65,6 +67,34 @@
         </div>
 
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="seta esquerda">
+                    </button>
+                </div>
+                
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="Lupa de pesquisa">
+                        <input id="search-input" type="text" placeholder="O que você quer ouvir?" maxlength="800">
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe"> Inscreva-se</button>
+                        <button class="login"> Entrar </button>
+                    </div>
+                </div>    
+            </nav>
+
+        </div>
+    </main>
+
 
    <footer class="disclaimer-premium">
         <div class="text">
