@@ -5,6 +5,7 @@
     height: 100vh;
     margin-left: 20rem;
     margin-right: 3.5rem;
+    
 }
 
 .header__navigation {
@@ -12,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem; /* 10px para rem */
-    margin: .625rem; /* 20px para rem */
+    margin: .75rem; /* 12px para rem */
     border-radius: .5rem; /* .5rem para rem */
     background-color: #121212;
 }
@@ -91,4 +92,33 @@
     font-size: 1rem;
     font-weight: 700;
     border-radius: 2.5rem;
+}
+
+
+
+/*TODO Playlist Section */
+
+.playlist-container {
+    height: 68vh;
+    padding-top: 1rem;
+    margin: .75rem;
+    border-radius: .625rem;
+    background-color: #121212;
+}
+
+.playlist {
+    margin: 1.5rem; 
+}
+
+.playlist #greeting {
+    color: var(--text-base-light);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.playlist .greeting-subtitle {
+    color: var(--text-base-light);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
